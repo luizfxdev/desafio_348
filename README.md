@@ -185,18 +185,43 @@ const finalTotal = exactTotal + anagramTotal;
 - **Detecção de anagramas:** O(s × m × k log k) onde s é o número de segmentos, m é o número de versos, e k é o tamanho médio dos versos
 - **Complexidade espacial:** O(m) para armazenar resultados
 
+## 📁 Estrutura do Projeto
+
+```
+desafio_____348__/
+│
+├── index.html                 # Arquivo principal HTML
+├── styles.css                 # Estilos CSS
+├── script.js                  # Lógica JavaScript
+├── README.md                  # Documentação completa
+│
+└── assets/                    # Pasta de recursos de mídia
+    ├── background.mp4         # Vídeo de fundo (3840x2160)
+    └── theme.mp3              # Música tema
+```
+
 ## 🚀 Como Usar
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/luizfxdev/desafio_348
+git clone https://github.com/luizfxdev/desafio_____348__
+cd desafio_____348__
 ```
 
 2. Adicione os arquivos de mídia na pasta `assets/`:
-   - `background.mp4` (vídeo de fundo)
-   - `theme.mp3` (música tema)
+   - `background.mp4` (vídeo de fundo - resolução recomendada: 3840x2160 ou 1920x1080)
+   - `theme.mp3` (música tema - formato MP3, bitrate 128-192 kbps)
 
-3. Abra `index.html` em um navegador moderno
+3. Abra `index.html` em um navegador moderno ou use um servidor local:
+```bash
+# Com Python 3
+python -m http.server 5500
+
+# Com Node.js (http-server)
+npx http-server -p 5500
+```
+
+4. Acesse: `http://localhost:5500` (se usar servidor local)
 
 ## 💡 Exemplos de Uso
 
