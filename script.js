@@ -144,7 +144,7 @@ function displayResult(exactVerses, anagrams, exactTotal, anagramTotal, finalTot
       const total = item.value * item.count;
       html += `<div class="calc-detail">• "${item.verse}" (${item.value} pontos) × ${item.count} = ${total} pontos</div>`;
     });
-    html += `<div class="calc-detail" style="margin-top: 10px; font-weight: 600; color: #b8d8ff;">Subtotal de versos exatos: ${exactTotal} pontos</div>`;
+    html += `<div class="calc-detail" style="margin-top: 10px; font-weight: 600; color: #633ed5;">Subtotal de versos exatos: ${exactTotal} pontos</div>`;
     html += '</div>';
   } else {
     html += '<div class="calc-step">';
@@ -160,7 +160,7 @@ function displayResult(exactVerses, anagrams, exactTotal, anagramTotal, finalTot
     anagrams.forEach(item => {
       html += `<div class="calc-detail">• "${item.original}" é anagrama de "${item.verse}" = ${item.value} pontos</div>`;
     });
-    html += `<div class="calc-detail" style="margin-top: 10px; font-weight: 600; color: #b8d8ff;">Subtotal de anagramas: ${anagramTotal} pontos</div>`;
+    html += `<div class="calc-detail" style="margin-top: 10px; font-weight: 600; color: #633ed5;">Subtotal de anagramas: ${anagramTotal} pontos</div>`;
     html += '</div>';
   } else {
     html += '<div class="calc-step">';
@@ -174,7 +174,7 @@ function displayResult(exactVerses, anagrams, exactTotal, anagramTotal, finalTot
   html += '<div class="calc-title">📊 Cálculo Final:</div>';
   html += `<div class="calc-detail">Versos explícitos: ${exactTotal} pontos</div>`;
   html += `<div class="calc-detail">Anagramas escondidos: ${anagramTotal} pontos</div>`;
-  html += `<div class="calc-detail" style="font-weight: 700; color: #b8d8ff; margin-top: 8px;">Total: ${exactTotal} + ${anagramTotal} = ${finalTotal} pontos</div>`;
+  html += `<div class="calc-detail" style="font-weight: 700; color: #633ed5; margin-top: 8px;">Total: ${exactTotal} + ${anagramTotal} = ${finalTotal} pontos</div>`;
   html += '</div>';
 
   // Resultado final destacado
