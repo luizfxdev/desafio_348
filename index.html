@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sinfonia Celestial dos Versos</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Vídeo de Background -->
+    <video id="bg-video" autoplay loop muted playsinline>
+      <source src="assets/background.mp4" type="video/mp4" />
+    </video>
+
+    <!-- Áudio de Fundo -->
+    <audio id="bg-audio" loop>
+      <source src="assets/theme.mp3" type="audio/mpeg" />
+    </audio>
+
+    <!-- Controles de Áudio -->
+    <div class="audio-controls">
+      <button id="play-audio" class="audio-btn" title="Tocar música">🎵</button>
+      <button id="pause-audio" class="audio-btn" title="Pausar música">⏸️</button>
+    </div>
+
+    <!-- Container Principal -->
+    <div class="container">
+      <div class="header">
+        <h1>Sinfonia Celestial dos Versos</h1>
+        <div class="description">
+          <p>
+            Você é o(a) guardião(ã) de uma orquestra cósmica, onde cada verso poético carrega o poder de notas
+            encantadas. Desvende o valor mágico das frases poéticas e descubra anagramas escondidos.
+          </p>
+
+          <div class="verses-table">
+            <h3>✨ Tabela de Valores dos Versos:</h3>
+            <ul>
+              <li><span class="verse-name">Brisa suave</span> <span class="verse-value">1</span></li>
+              <li><span class="verse-name">Doce luar</span> <span class="verse-value">5</span></li>
+              <li><span class="verse-name">Cores dançam</span> <span class="verse-value">10</span></li>
+              <li><span class="verse-name">Valsa eterna</span> <span class="verse-value">50</span></li>
+              <li><span class="verse-name">Alvorada branca</span> <span class="verse-value">100</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="input-section">
+        <label for="message-input">🎻 Insira a Mensagem Poética:</label>
+        <textarea id="message-input" placeholder="Exemplo: Brisa suave / Doce luar / Valsa eterna" rows="3"></textarea>
+      </div>
+
+      <div class="buttons-section">
+        <button id="decipher-btn" class="custom-btn btn-13">
+          <span>REVELAR</span>
+        </button>
+        <button id="return-btn" class="custom-btn btn-13">
+          <span>RETORNAR</span>
+        </button>
+      </div>
+
+      <div class="result-section" id="result-section">
+        <h2>🎼 Resultado da Sinfonia</h2>
+        <div id="result-content" class="result-content"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
