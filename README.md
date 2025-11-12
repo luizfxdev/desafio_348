@@ -188,7 +188,7 @@ const finalTotal = exactTotal + anagramTotal;
 ## 📁 Estrutura do Projeto
 
 ```
-desafio_____348__/
+desafio_348/
 │
 ├── index.html                 # Arquivo principal HTML
 ├── styles.css                 # Estilos CSS
