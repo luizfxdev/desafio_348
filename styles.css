@@ -367,7 +367,7 @@ body {
 
 .calc-title {
   font-weight: 700;
-  color: #4a6fa5;
+  color: #2510a3;
   margin-bottom: 6px;
   font-size: 1rem;
   text-shadow: 0 0 8px rgba(74, 111, 165, 0.3);
@@ -392,7 +392,7 @@ body {
 
 .final-result-label {
   font-size: 1.1rem;
-  color: #4a6fa5;
+  color: #2510a3;
   font-weight: 700;
   margin-bottom: 8px;
   text-shadow: 0 0 10px rgba(74, 111, 165, 0.4);
@@ -401,7 +401,7 @@ body {
 .final-result-value {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #ffffff;
+  color: #2510a3;
   font-family: 'Cormorant Garamond', serif;
   text-shadow: 0 0 15px rgba(184, 216, 255, 0.8), 0 0 30px rgba(150, 180, 255, 0.5);
 }
