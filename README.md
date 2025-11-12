@@ -204,8 +204,8 @@ desafio_348/
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/luizfxdev/desafio_____348__
-cd desafio_____348__
+git clone https://github.com/luizfxdev/desafio_348
+cd desafio_348
 ```
 
 2. Adicione os arquivos de mídia na pasta `assets/`:
